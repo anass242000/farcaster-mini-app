@@ -1,6 +1,28 @@
 import { Metadata } from "next";
 import App from "@/components/pages/app";
 import { APP_URL } from "@/lib/constants";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Farcaster Mini App by Anass",
+  description: "A simple demo for the Farcaster mini app competition",
+};
+
+export default function Home() {
+  return (
+    <main className="flex min-h-screen flex-col items-center justify-center p-8">
+      <h1 className="text-4xl font-bold mb-6 text-center">
+        👋 Welcome to Anass’s Mini App
+      </h1>
+      <p className="text-lg text-center mb-4">
+        This app was built for the <strong>Farcaster Mini App Hackathon</strong> using the Monad template.
+      </p>
+      <p className="text-md text-gray-500 text-center">
+        Try it out on Warpcast or share it with your followers!
+      </p>
+    </main>
+  );
+}
 
 const frame = {
   version: "next",
