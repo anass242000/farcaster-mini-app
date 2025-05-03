@@ -1,0 +1,12 @@
+{
+  "name": "Anass Farcaster Mini App",
+  "description": "A simple app built for the Farcaster mini app hackathon",
+  "icons": [
+    {
+      "src": "https://farcaster-mini-mi6x2vcx1-anass242000s-projects.vercel.app/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ],
+  "url": "https://farcaster-mini-mi6x2vcx1-anass242000s-projects.vercel.app"
+}
